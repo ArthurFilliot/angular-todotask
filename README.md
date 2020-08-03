@@ -1,2 +1,2 @@
 # angular-todotask
-Udemy - Angular - Zero From Hero - - Todo Task
+Udemy - Angular - Zero From Hero - Todo Task
