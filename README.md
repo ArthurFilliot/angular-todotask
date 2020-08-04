@@ -1,5 +1,5 @@
 # angular-todotask
-Udemy - Angular - Zero From Hero - Todo Task
+Udemy - Angular - from zero to hero - Todo Task
 
 # Header
 Title
