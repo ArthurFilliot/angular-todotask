@@ -1,0 +1,6 @@
+<p #introduction></p>
+<remitter-text #minput (remittance)="currentvalue=$event" [text]="currentvalue"></remitter-text>
+<br />
+<recipient-label [receipt]="currentvalue"></recipient-label>
+<br />
+<transmitter-button [data]="currentvalue" (transmit)="callEvent()"></transmitter-button>

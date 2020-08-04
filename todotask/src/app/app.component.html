@@ -1,0 +1,18 @@
+<table class="app-container">
+<tr>
+    <th>Add TODO Task</th>
+    <th>TO-DO List(<span #nbtodos>{{ tasklist | len }}</span>)</th>
+</tr>
+<tr>
+    <td width="50%">
+        <todo-adder (add)="pushTask($event)"></todo-adder>
+    </td>
+    <td>
+        <recipient-list [tasks]="tasklist">
+            <h2 *ngIf="tasklist.length==0">
+                You don't have tasks yet
+            </h2>
+        </recipient-list>
+    </td>
+</tr>
+</table>
